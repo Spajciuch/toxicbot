@@ -1,0 +1,11 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Spyte",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "moment": "^2.22.2"
+  }
+}
