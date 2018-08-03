@@ -8,7 +8,7 @@ client.on('ready', () => {
 		
 		let online = server.members.filter(member => member.user.presence.status !== 'offline');
 		var hr = new Date().getHours() +2
-		var ss = new Date().getSecounds()+2
+		var ss = new Date().getSeconds()+2
 		if(hr == 25) hr = 1
 	client.channels.get("465564963801530389").edit({name: `Członków: ${server.members.size}`})
 	client.channels.get("474968736886161408").edit({name: `Online: ${online.size}`})
